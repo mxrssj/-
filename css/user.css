@@ -1,0 +1,232 @@
+* { margin: 0; padding: 0;}
+
+body {
+	font-size: 0.32rem;
+	background: #F4F4F4;
+}
+
+header { 
+	display:flex;
+ 	background: #f7f7f7;; height: 0.9rem;
+ }
+
+.message {
+	width: 1rem;
+}
+
+.search {
+	flex: 1;
+	/*flex-grow: 1;
+	flex-shrink: 0;
+	flex-basis: 0%;*/
+}
+
+.search h2 {
+	color: #8C8C8C;
+	font-weight: normal;
+	font-size: 0.32rem;
+}
+
+.sys {
+	width: 1rem;
+}
+
+header > div { 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header > div img {
+	width: 34%;
+	height: auto;
+}
+
+header .sys img {
+	width: 65%;
+}
+
+.user {
+	 height: 3.4rem;
+	 background: url(../user/user_bg.jpg);
+	 background-size: contain ;
+}
+
+.user_info {
+	display: flex;
+	padding: 0.45rem 0.3rem 0rem 0.34rem;
+}
+
+.user_photo {
+ 	width: 1.6rem;
+}
+
+.user_photo img{
+	 width: 100%;
+	 height: auto;
+	 border: 0.06rem solid #fff;
+	 border-radius: 0.04rem;
+}
+
+.user_name {
+	flex: 1;
+    margin-left: 0.3rem;
+}	
+
+.user_name b {
+	 font-size: 0.4rem;
+	 line-height: 0.8rem;
+	 display: block;
+}	
+
+.user_update {
+	 width: 1.6rem;
+	 display: flex;
+	 align-items: center;
+	 text-align: right;
+}
+
+.user_data {
+	margin-top: 0.15rem;
+	background: rgba(0,0,0,0.7);
+	display: flex;
+	justify-content: space-around;
+	height: 0.47rem;
+	padding:0.26rem 0.2rem;
+	color: #fff;
+	font-size: 0.3rem;
+}
+
+.user_data >div:nth-child(2) {
+	border-left: 0.02rem solid rgba(255,255,255,0.5);
+	border-right: 0.02rem solid rgba(255,255,255,0.5);
+	padding: 0 0.3rem;
+}
+
+.bg_huise1 {
+	background: #F4F4F4;
+	width: 100%;
+	height: 0.3rem;
+}
+
+.user_ctrl {
+	display: flex;
+	border-top: 0.02rem solid #dadada;
+	border-bottom: 0.02rem solid #dadada;
+	background: #FFFFFF;
+}
+
+.user_ctrl > div {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 0.36rem 0 0.24rem 0;
+}
+
+.user_ctrl > div > div{
+	 width: 50%;
+}
+
+.user_ctrl > div > div img{
+	 width: 100%;
+	 height: auto;
+}
+
+.user_other {
+	border-top: 0.02rem solid #dadada;
+	height: 3.9rem;
+	display: flex;
+	flex-wrap: wrap;
+	background: #FFFFFF;
+}
+
+.user_other > div {
+	height: 1.3rem;
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.user_other > div:nth-child(2n) {
+	border-right: none;
+}
+
+.user_other > div a {
+	border-right: 0.02rem solid #DADADA;
+	border-bottom: 0.02rem solid #DADADA;
+	display: flex;
+	width: 100%;
+	text-decoration: none;
+	justify-content: center;
+	align-items: center;
+	color: #080808;
+	padding-left: 0.36rem;
+}
+
+.dd {
+	background: url(../user/user_icon1.jpg) no-repeat 0.5rem;
+	background-size: 0.66rem;
+}
+
+.ll {
+	background: url(../user/user_icon2.jpg) no-repeat 0.5rem;
+	background-size: 0.66rem;
+}
+
+.wd {
+	background: url(../user/user_icon4.jpg) no-repeat 0.5rem;
+	background-size: 0.66rem;
+}
+
+.hy {
+	background: url(../user/user_icon5.jpg) no-repeat 0.5rem;
+	background-size: 0.66rem;
+}
+
+.aq {
+	background: url(../user/user_icon6.jpg) no-repeat 0.5rem;
+	background-size: 0.66rem;
+}
+
+.bz {
+	background: url(../user/user_icon7.jpg) no-repeat 0.5rem;
+	background-size: 0.66rem;
+}
+
+.bg_huise2 {
+	background: #F4F4F4;
+	height: 1.64rem;
+}
+
+footer {
+	height: 1.3rem;
+	border-top: 0.02rem solid #DADADA;
+	background: #F4F4F4;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+footer a {
+	width: 0.8rem;
+	text-align: center;
+	text-decoration: none;
+	line-height: 0.24rem;
+}
+
+footer > a img {
+	width: 80%;
+	height: auto;
+}
+
+footer > a p {
+	color: #65686f;
+	font-size: 0.26rem;
+	text-align: center;
+	padding: 0.1rem 0;
+}

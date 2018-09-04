@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css1.css"/>
+		<style type="text/css">
+			header > div img { wdith: 26%; height: auto;}
+			main { display: flex;}
+			
+			aside { flex: 22; background: #f4f4f4; border-right: 0.01rem solid #f1f1f1;	}
+			
+			aside a { 
+				display: block;
+			    text-decoration: none; 
+				color: #051b29; 
+			    text-align: center;
+				line-height: 1.6rem; 
+				border-right: 0.02rem solid #d8d0ce;
+				border-bottom: 0.02rem solid #d8d0ce; 
+				font-size: 0.28rem;
+			}
+			
+			aside .active {
+				background: #FFFFFF;
+				color: red;
+				border-right:none;
+			}
+			
+			article { flex: 53; padding: 0.2rem;}
+			article h2 { font-size: 0.32rem; font-weight: normal; color: #ADADAD; padding: 0.2rem 0;}
+			article .g_add img { width: 100%; height: auto;}
+			
+			.tx_content { display: flex; flex-wrap: wrap;}
+			.tx_content > div { 
+				 width: 33.333333%; height: 2.1rem;
+				 display: flex; justify-content: center; align-items: center;
+				 border-bottom: 0.01rem solid #d8d0ce;}
+			 .tx_content > div > div { width: 40%;}
+			 .tx_content > div > div img{ width: 100%; height: auto;}
+			 .tx_content > div > div p { color:#ADADAD ; font-size: 0.28rem;
+			 display: flex; justify-content: center; align-items: center; margin-top: 0.1rem;}
+			 
+			 .pj_content { display: flex; }
+			 .pj_content > div { width: 33.333333%; height: 2.1rem;
+				 display: flex; justify-content: center; align-items: center;
+				}
+			 .pj_content > div > div { width: 60%; text-align: center;}
+			 .pj_content > div > div img{ width: 100%; height: auto;}
+			 .pj_content > div > div p { color:#ADADAD ; font-size: 0.28rem;
+			 display: flex; justify-content: center; align-items: center; margin-top: 0.1rem;}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="message"><img src="list/g_back.jpg"/></div>
+			<div class="search">
+				<input type="text" value="请输入商品、商家、服务" />
+			</div>
+			<div class="sys"><img src="list/g_message.jpg"/></div>
+		</header>
+		
+		<main>
+			<aside>
+				<a href="#" class="active">电子数码</a>
+				<a href="#">家用电器</a>
+				<a href="#">箱包鞋帽</a>
+				<a href="#">日用百货</a>
+			</aside>
+				<article>
+					<div class="g_add">
+						<img src="list/g_banner.jpg"/>
+					</div>
+					<div class="tongxun">
+						<h2>手机通讯</h2>
+						<div class="tx_content">
+							<div>
+								<div>
+									<img src="list/g_list1.jpg"/>
+									<p>苹果</p>
+								</div>
+							</div>
+							<div>
+								<div>
+									<img src="list/g_list1.jpg"/>
+									<p>苹果</p>
+								</div>
+							</div>
+							<div>
+								<div>
+									<img src="list/g_list1.jpg"/>
+									<p>苹果</p>
+								</div>
+							</div>
+							<div>
+								<div>
+									<img src="list/g_list1.jpg"/>
+									<p>苹果</p>
+								</div>
+							</div>
+							<div>
+								<div>
+									<img src="list/g_list1.jpg"/>
+									<p>苹果</p>
+								</div>
+							</div>
+							<div>
+								<div>
+									<img src="list/g_list1.jpg"/>
+									<p>苹果</p>
+								</div>
+							</div>
+							<div>
+								<div>
+									<img src="list/g_list1.jpg"/>
+									<p>苹果</p>
+								</div>
+							</div>
+							<div>
+								<div>
+									<img src="list/g_list1.jpg"/>
+									<p>苹果</p>
+								</div>
+							</div>
+							<div>
+								<div>
+									<img src="list/g_list1.jpg"/>
+									<p>苹果</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="peijian">
+					<h2>数码配件</h2>
+					<div class="pj_content">
+						<div>
+							<div>
+								<img src="list/g_list22.jpg"/>
+								<p>苹果</p>
+							</div>
+						</div>
+						<div>
+							<div>
+								<img src="list/g_list23.jpg"/>
+								<p>苹果</p>	
+							</div>	
+						</div>
+						<div>
+							<div>
+								<img src="list/g_list24.jpg"/>
+								<p>苹果</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+		</main>
+		
+		<script src="home.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
